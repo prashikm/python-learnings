@@ -1,6 +1,6 @@
 # pip install playsound: run this command to install a module named playsound
 
-# importing playsound
+# import playsound
 from playsound import playsound
 
 file_path = 'music.mp3'
