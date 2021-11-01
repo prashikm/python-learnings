@@ -1,6 +1,6 @@
 # 1. Hello World
 
-## Writing the first python programm
+## Writing the first python program
 
 ```python
 print("Hello World")
@@ -26,7 +26,7 @@ Python is an amazing language!
 
 ## Print function
 
-It is used to diaplay output on command line interface.
+It is used to display output on command line interface.
 
 ```python
 print('The first computer programmer was a female mathematician: Ada Lovelace')
@@ -45,4 +45,4 @@ print('The number is', 46)
 
 ## **Pip** - A python package installer
 
-Pip is package management system for python, which is used to install and manage python packages via command line. It is already comes installed with python.
+Pip is a package management system for python, which is used to install and manage python packages via command line. It already comes installed with python.
