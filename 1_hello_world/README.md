@@ -8,9 +8,9 @@ print("Hello World")
 
 ## Comments in python
 
-Single Line Comment --> #
+Single Line Comment --> `#`
 
-Multiple Line Comment --> '''   '''
+Multiple Line Comment --> `'''   '''`
 
 ```python
 # this is a single line comment
