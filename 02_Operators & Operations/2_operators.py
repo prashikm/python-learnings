@@ -1,4 +1,4 @@
-# ----------------------- Arthemetic Operators ------------------------------
+# ----------------------- Arithmetic Operators ------------------------------
 Addition = 4 + 2
 Subtraction = 6 - 4
 Multiplication = 5 * 2
@@ -37,7 +37,7 @@ x **= 2
 print('x **= 2', x)
 
 
-# ----------------------- Comparision Operators ------------------------------
+# ----------------------- Comparison Operators ------------------------------
 a = 14
 b = 100
 
