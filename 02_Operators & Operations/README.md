@@ -97,14 +97,14 @@ Comparison operators as the name suggests is used to compare the two values.
 | Less than or equal to | <= | 2 <= 2 |
 
 ```python
-print('4 == 2: ', 4 == 2)
-print('8 == 8: ', 8 == 8)
+print('4 == 2: ', 4 == 2)       # False
+print('8 == 8: ', 8 == 8)       # True
 
-print('6 != 4: ', 6 != 4)
-print('45 != 45: ', 45 != 45)
+print('6 != 4: ', 6 != 4)       # True
+print('45 != 45: ', 45 != 45)   # False
 
-print('5 > 2: ', 5 > 2)
-print('8 < 2: ', 8 < 2)
-print('7 >= 2: ', 7 >= 2)
-print('2 <= 2: ', 2 <= 2)
+print('5 > 2: ', 5 > 8)         # False
+print('8 < 2: ', 8 < 2)         # True
+print('7 >= 2: ', 7 >= 2)       # True
+print('2 <= 2: ', 2 <= 2)       # True
 ```
