@@ -69,3 +69,16 @@ Assignment operators are used to assign the values to given variables.
 | //= | x *= 3 |
 | %= | x //= 6 |
 | **= | x %= 3 |
+
+```python
+x = 5
+
+print('x =', x)             # x = 5
+print('x += 4: ', x)        # 9
+print('x -= 2: ', x)        # 7
+print('x *= 3: ', x)        # 21
+print('x //= 6: ', x)       # 3
+print('x %= 3: ', x)        # 0
+print('x **= 2: ', x)       # 0
+print('2 **= 2: ', 2**2)    # 4 
+```
