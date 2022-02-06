@@ -35,23 +35,21 @@ print('x %= 3: ', x)
 
 x **= 2
 print('x **= 2: ', x)
+print('2 **= 2: ', 2**2)
 print('\n')
 
 
 # ----------------------- Comparison Operators ------------------------------
-a = 14
-b = 100
-
-print('a == b: ', a == b)
+print('4 == 2: ', 4 == 2)
 print('8 == 8: ', 8 == 8)
 
-print('a != b: ', a != b)
+print('6 != 4: ', 6 != 4)
 print('45 != 45: ', 45 != 45)
 
-print('a > b: ', a > b)
-print('a < b: ', a < b)
-print('a >= b: ', a >= b)
-print('a <= b: ', a <= b)
+print('5 > 2: ', 5 > 2)
+print('8 < 2: ', 8 < 2)
+print('7 >= 2: ', 7 >= 2)
+print('2 <= 2: ', 2 <= 2)
 print('\n')
 
 
