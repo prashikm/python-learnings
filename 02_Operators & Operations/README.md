@@ -22,7 +22,7 @@ print(None, type(None))             # NoneType
 
 ## Operators
 
-The operators are use to perform the operations on given values or variables. There mare many operators in Python which are used to carry of arithmetic or logical operations.
+The operators are used to perform the operations on given values or variables. There mare many operators in Python which are used to carry off arithmetic or logical operations.
 
 Some of the most commonly used operators:
 
