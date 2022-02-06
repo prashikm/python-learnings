@@ -82,3 +82,29 @@ print('x %= 3: ', x)        # 0
 print('x **= 2: ', x)       # 0
 print('2 **= 2: ', 2**2)    # 4 
 ```
+
+### Comparison Operators
+
+Comparison operators as the name suggests is used to compare the two values.
+
+| Name | Operator | Example |
+| ---- | -------- | ------- |
+| Equal | == | 4 == 2 |
+| Not equal | != | 6 != 4 |
+| Greater than | > | 5 > 2 |
+| Less than | < | 8 < 2 |
+| Greater than or equal to | >= | 7 >= 2 |
+| Less than or equal to | <= | 2 <= 2 |
+
+```python
+print('4 == 2: ', 4 == 2)
+print('8 == 8: ', 8 == 8)
+
+print('6 != 4: ', 6 != 4)
+print('45 != 45: ', 45 != 45)
+
+print('5 > 2: ', 5 > 2)
+print('8 < 2: ', 8 < 2)
+print('7 >= 2: ', 7 >= 2)
+print('2 <= 2: ', 2 <= 2)
+```
