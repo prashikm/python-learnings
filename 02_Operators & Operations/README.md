@@ -19,3 +19,53 @@ print(34.7, type(34.7))             # float
 print(True, type(True))             # bool
 print(None, type(None))             # NoneType
 ```
+
+## Operators
+
+The operators are use to perform the operations on given values or variables. There mare many operators in Python which are used to carry of arithmetic or logical operations.
+
+Some of the most commonly used operators:
+
+- Arithmetic operators
+- Assignment operators
+- Comparison operators
+- Logical operators
+- Identity operators
+
+### Arithmetic Operators
+
+Arithmetic operators are just like the mathematical operations like addition, subtraction, multiplication, division, etc.
+
+| Name | Operator | Example |
+| ---- | -------- | ------- |
+| Addition | + | 4 + 2 |
+| Subtraction | + | 6 - 4 |
+| Multiplication | * | 5 * 2 |
+| Division | // | 8 // 2 |
+| Modulus | % | 7 % 2 |
+| Exponential | ** | 2 ** 2|
+
+**Note:** Python has two type of division operators `/` which returns the floating number and `//` which returns floor value of the division.
+
+```python
+print('4 + 2: ', 4 + 2)     # 6
+print('6 - 4: ', 6 - 4)     # 2
+print('5 * 2: ', 5 * 2)     # 10
+print('8 / 2: ', 8 / 2)     # 4.0
+print('8 // 2: ', 8 // 2)   # 4
+print('7 % 2: ', 7 % 2)     # 1
+print('2 ** 2: ', 2 ** 2)   # 4
+```
+
+### Assignment Operators
+
+Assignment operators are used to assign the values to given variables.
+
+| Operator | Example |
+| ---- | ------- |
+| = | x = 5 |
+| += | x += 4 |
+| -= | x -= 2 |
+| //= | x *= 3 |
+| %= | x //= 6 |
+| **= | x %= 3 |
