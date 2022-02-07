@@ -108,3 +108,20 @@ print('8 < 2: ', 8 < 2)         # True
 print('7 >= 2: ', 7 >= 2)       # True
 print('2 <= 2: ', 2 <= 2)       # True
 ```
+
+### Logical Operators
+
+Logical operator is used to perform logical operations on two statements or values. There are basically three main types of logical operators in Python.
+
+| Operator | Description | Example |
+| ---- | -------- | ------- |
+| `and` | Compare both the statements and return True if both are true else False | 4 < 6 and 8 > 2 |
+| `or` | Compare both the statements and return True if any one is true else False | 4 > 6 or 8 < 2 |
+| `not` | Returns the reverse of given boolean value i.e. True to False and vice versa | not True |
+
+```python
+print("The value of True AND False is: ", True and False)
+print("The value of True OR False is: ", True or False)
+print("The value of NOT True is: ", not True)
+print("The value of NOT False is: ", not False)
+```
