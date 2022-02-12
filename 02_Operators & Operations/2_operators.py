@@ -57,10 +57,10 @@ print('\n')
 bool1 = True
 bool2 = False
 
-print("The value of bool1 AND bool2 is: ", bool1 and bool2)
-print("The value of bool1 OR bool2 is: ", bool1 or bool2)
-print("The value of NOT bool1 is: ", not bool1)
-print("The value of NOT bool2 is: ", not bool2)
+print("The value of bool1 AND bool2 is: ", bool1 and bool2)     # False
+print("The value of bool1 OR bool2 is: ", bool1 or bool2)       # True
+print("The value of NOT bool1 is: ", not bool1)                 # False
+print("The value of NOT bool2 is: ", not bool2)                 # True
 print('\n')
 
 
@@ -69,7 +69,7 @@ obj1 = [2, 4, 6, 8]
 obj2 = [2, 4, 6, 8]
 obj3 = obj2
 
-print('obj1 is obj2: ', obj1 is obj2)
-print('obj1 is obj3: ', obj1 is obj3)
-print('obj2 is obj3: ', obj2 is obj3)
+print('obj1 is obj2: ', obj1 is obj2)   # False
+print('obj1 is obj3: ', obj1 is obj3)   # False
+print('obj2 is obj3: ', obj2 is obj3)   # True
 print('\n')
