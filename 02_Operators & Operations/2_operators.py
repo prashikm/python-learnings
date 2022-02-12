@@ -65,5 +65,11 @@ print('\n')
 
 
 # ----------------------- Identity Operators ------------------------------
-print('[2, 4, 6, 8] is [2, 4, 6, 8]: ', [2, 4, 6, 8] is [2, 4, 6, 8])
+obj1 = [2, 4, 6, 8]
+obj2 = [2, 4, 6, 8]
+obj3 = obj2
+
+print('obj1 is obj2: ', obj1 is obj2)
+print('obj1 is obj3: ', obj1 is obj3)
+print('obj2 is obj3: ', obj2 is obj3)
 print('\n')
