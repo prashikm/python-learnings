@@ -125,3 +125,26 @@ print("The value of True OR False is: ", True or False)
 print("The value of NOT True is: ", not True)
 print("The value of NOT False is: ", not False)
 ```
+
+### Identity Operators
+
+Identity operators are use to compare the objects like arrays and return True if they are same i.e. are stored in same memory location else False.
+
+| Operator | Description |
+| ---- | -------- |
+| `is` | Compare objects and return True if they are same |
+
+```python
+obj1 = [2, 4, 6, 8]
+obj2 = [2, 4, 6, 8]
+obj3 = obj2
+
+print('obj1 is obj2: ', obj1 is obj2)
+# returns False because they both are not same object even if they have same content, use == operator to compare
+
+print('obj1 is obj3: ', obj1 is obj3)
+# same return False
+
+print('obj2 is obj3: ', obj2 is obj3)
+# return True because both the object are same and have same memory location
+```
